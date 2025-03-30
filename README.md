@@ -1,1 +1,1 @@
-All about information systems course materials and assignments
+All about coding materials and assignments in information systems courses
