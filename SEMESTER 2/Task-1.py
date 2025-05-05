@@ -82,3 +82,14 @@ total_pendapatan = (jumlah_cupcake * harga_cupcake) + (jumlah_macaron * harga_ma
 # Menampilkan hasil
 print(f"Total uang yang terkumpul adalah {total_pendapatan} pence.")
 
+#JAWABAN TANTANGAN 1 : 
+a = int(input("Jumlah cupcake terjual : "))
+b = int(input("Jumlah macaron terjual : "))
+c = int(input("Jumlah cheesecake terjual : "))
+uang_terkumpul = (a * 40) + (b * 50) + (c * 70)
+print(uang_terkumpul)
+
+#function : 
+def cupcake(a,b,c):
+    Uang = (40*a)+(50*b)+(70*c)
+    return Uang
